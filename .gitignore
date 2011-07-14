@@ -1,0 +1,15 @@
+# xcode turds
+build/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.swp
+*~.nib
+*.perspective
+*.perspectivev3
+
+# osx turds
+.DS_Storeprofile
+
+
+

@@ -39,20 +39,20 @@
 		ED8711A713CEDE060083C3D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ED8711A913CEDE060083C3D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ED8711AB13CEDE060083C3D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ED8711AF13CEDE060083C3D3 /* RatingKit-Info.plist */ = {isa = PBXFileReference; path = "RatingKit-Info.plist"; sourceTree = "<group>"; };
+		ED8711AF13CEDE060083C3D3 /* RatingKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingKit-Info.plist"; sourceTree = "<group>"; };
 		ED8711B113CEDE060083C3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ED8711B313CEDE060083C3D3 /* RatingKit-Prefix.pch */ = {isa = PBXFileReference; path = "RatingKit-Prefix.pch"; sourceTree = "<group>"; };
+		ED8711B313CEDE060083C3D3 /* RatingKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RatingKit-Prefix.pch"; sourceTree = "<group>"; };
 		ED8711B413CEDE060083C3D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ED8711B613CEDE060083C3D3 /* RatingKitAppDelegate.h */ = {isa = PBXFileReference; path = RatingKitAppDelegate.h; sourceTree = "<group>"; };
+		ED8711B613CEDE060083C3D3 /* RatingKitAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingKitAppDelegate.h; sourceTree = "<group>"; };
 		ED8711B713CEDE060083C3D3 /* RatingKitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingKitAppDelegate.m; sourceTree = "<group>"; };
 		ED8711BA13CEDE060083C3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		ED8711BC13CEDE060083C3D3 /* RatingKitViewController.h */ = {isa = PBXFileReference; path = RatingKitViewController.h; sourceTree = "<group>"; };
+		ED8711BC13CEDE060083C3D3 /* RatingKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingKitViewController.h; sourceTree = "<group>"; };
 		ED8711BD13CEDE060083C3D3 /* RatingKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingKitViewController.m; sourceTree = "<group>"; };
 		ED8711C013CEDE060083C3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RatingKitViewController.xib; sourceTree = "<group>"; };
 		ED8711C713CEDE060083C3D3 /* RatingKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED8711CF13CEDE060083C3D3 /* RatingKitTests-Info.plist */ = {isa = PBXFileReference; path = "RatingKitTests-Info.plist"; sourceTree = "<group>"; };
+		ED8711CF13CEDE060083C3D3 /* RatingKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatingKitTests-Info.plist"; sourceTree = "<group>"; };
 		ED8711D113CEDE060083C3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ED8711D313CEDE060083C3D3 /* RatingKitTests-Prefix.pch */ = {isa = PBXFileReference; path = "RatingKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		ED8711D313CEDE060083C3D3 /* RatingKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RatingKitTests-Prefix.pch"; sourceTree = "<group>"; };
 		ED8711D413CEDE060083C3D3 /* RatingKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingKitTests.h; sourceTree = "<group>"; };
 		ED8711D613CEDE060083C3D3 /* RatingKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingKitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
