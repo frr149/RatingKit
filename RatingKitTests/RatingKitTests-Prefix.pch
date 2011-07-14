@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RatingKitTests' target in the 'RatingKitTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

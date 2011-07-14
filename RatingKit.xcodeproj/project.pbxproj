@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED8711A813CEDE060083C3D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8711A713CEDE060083C3D3 /* UIKit.framework */; };
+		ED8711AA13CEDE060083C3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8711A913CEDE060083C3D3 /* Foundation.framework */; };
+		ED8711AC13CEDE060083C3D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8711AB13CEDE060083C3D3 /* CoreGraphics.framework */; };
+		ED8711B213CEDE060083C3D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8711B013CEDE060083C3D3 /* InfoPlist.strings */; };
+		ED8711B513CEDE060083C3D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8711B413CEDE060083C3D3 /* main.m */; };
+		ED8711B813CEDE060083C3D3 /* RatingKitAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8711B713CEDE060083C3D3 /* RatingKitAppDelegate.m */; };
+		ED8711BB13CEDE060083C3D3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8711B913CEDE060083C3D3 /* MainWindow.xib */; };
+		ED8711BE13CEDE060083C3D3 /* RatingKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8711BD13CEDE060083C3D3 /* RatingKitViewController.m */; };
+		ED8711C113CEDE060083C3D3 /* RatingKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8711BF13CEDE060083C3D3 /* RatingKitViewController.xib */; };
+		ED8711C813CEDE060083C3D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8711A713CEDE060083C3D3 /* UIKit.framework */; };
+		ED8711C913CEDE060083C3D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8711A913CEDE060083C3D3 /* Foundation.framework */; };
+		ED8711CA13CEDE060083C3D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8711AB13CEDE060083C3D3 /* CoreGraphics.framework */; };
+		ED8711D213CEDE060083C3D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8711D013CEDE060083C3D3 /* InfoPlist.strings */; };
+		ED8711D513CEDE060083C3D3 /* RatingKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ED8711D413CEDE060083C3D3 /* RatingKitTests.h */; };
+		ED8711D713CEDE060083C3D3 /* RatingKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8711D613CEDE060083C3D3 /* RatingKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED8711CB13CEDE060083C3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED87119A13CEDE050083C3D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8711A213CEDE050083C3D3;
+			remoteInfo = RatingKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED8711A313CEDE060083C3D3 /* RatingKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8711A713CEDE060083C3D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED8711A913CEDE060083C3D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED8711AB13CEDE060083C3D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED8711AF13CEDE060083C3D3 /* RatingKit-Info.plist */ = {isa = PBXFileReference; path = "RatingKit-Info.plist"; sourceTree = "<group>"; };
+		ED8711B113CEDE060083C3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED8711B313CEDE060083C3D3 /* RatingKit-Prefix.pch */ = {isa = PBXFileReference; path = "RatingKit-Prefix.pch"; sourceTree = "<group>"; };
+		ED8711B413CEDE060083C3D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED8711B613CEDE060083C3D3 /* RatingKitAppDelegate.h */ = {isa = PBXFileReference; path = RatingKitAppDelegate.h; sourceTree = "<group>"; };
+		ED8711B713CEDE060083C3D3 /* RatingKitAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingKitAppDelegate.m; sourceTree = "<group>"; };
+		ED8711BA13CEDE060083C3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ED8711BC13CEDE060083C3D3 /* RatingKitViewController.h */ = {isa = PBXFileReference; path = RatingKitViewController.h; sourceTree = "<group>"; };
+		ED8711BD13CEDE060083C3D3 /* RatingKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingKitViewController.m; sourceTree = "<group>"; };
+		ED8711C013CEDE060083C3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RatingKitViewController.xib; sourceTree = "<group>"; };
+		ED8711C713CEDE060083C3D3 /* RatingKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatingKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8711CF13CEDE060083C3D3 /* RatingKitTests-Info.plist */ = {isa = PBXFileReference; path = "RatingKitTests-Info.plist"; sourceTree = "<group>"; };
+		ED8711D113CEDE060083C3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED8711D313CEDE060083C3D3 /* RatingKitTests-Prefix.pch */ = {isa = PBXFileReference; path = "RatingKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		ED8711D413CEDE060083C3D3 /* RatingKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingKitTests.h; sourceTree = "<group>"; };
+		ED8711D613CEDE060083C3D3 /* RatingKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8711A013CEDE050083C3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8711A813CEDE060083C3D3 /* UIKit.framework in Frameworks */,
+				ED8711AA13CEDE060083C3D3 /* Foundation.framework in Frameworks */,
+				ED8711AC13CEDE060083C3D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8711C313CEDE060083C3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8711C813CEDE060083C3D3 /* UIKit.framework in Frameworks */,
+				ED8711C913CEDE060083C3D3 /* Foundation.framework in Frameworks */,
+				ED8711CA13CEDE060083C3D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED87119813CEDE050083C3D3 = {
+			isa = PBXGroup;
+			children = (
+				ED8711AD13CEDE060083C3D3 /* RatingKit */,
+				ED8711CD13CEDE060083C3D3 /* RatingKitTests */,
+				ED8711A613CEDE060083C3D3 /* Frameworks */,
+				ED8711A413CEDE060083C3D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8711A413CEDE060083C3D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8711A313CEDE060083C3D3 /* RatingKit.app */,
+				ED8711C713CEDE060083C3D3 /* RatingKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8711A613CEDE060083C3D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED8711A713CEDE060083C3D3 /* UIKit.framework */,
+				ED8711A913CEDE060083C3D3 /* Foundation.framework */,
+				ED8711AB13CEDE060083C3D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8711AD13CEDE060083C3D3 /* RatingKit */ = {
+			isa = PBXGroup;
+			children = (
+				ED8711B613CEDE060083C3D3 /* RatingKitAppDelegate.h */,
+				ED8711B713CEDE060083C3D3 /* RatingKitAppDelegate.m */,
+				ED8711B913CEDE060083C3D3 /* MainWindow.xib */,
+				ED8711BC13CEDE060083C3D3 /* RatingKitViewController.h */,
+				ED8711BD13CEDE060083C3D3 /* RatingKitViewController.m */,
+				ED8711BF13CEDE060083C3D3 /* RatingKitViewController.xib */,
+				ED8711AE13CEDE060083C3D3 /* Supporting Files */,
+			);
+			path = RatingKit;
+			sourceTree = "<group>";
+		};
+		ED8711AE13CEDE060083C3D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED8711AF13CEDE060083C3D3 /* RatingKit-Info.plist */,
+				ED8711B013CEDE060083C3D3 /* InfoPlist.strings */,
+				ED8711B313CEDE060083C3D3 /* RatingKit-Prefix.pch */,
+				ED8711B413CEDE060083C3D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED8711CD13CEDE060083C3D3 /* RatingKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED8711D413CEDE060083C3D3 /* RatingKitTests.h */,
+				ED8711D613CEDE060083C3D3 /* RatingKitTests.m */,
+				ED8711CE13CEDE060083C3D3 /* Supporting Files */,
+			);
+			path = RatingKitTests;
+			sourceTree = "<group>";
+		};
+		ED8711CE13CEDE060083C3D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED8711CF13CEDE060083C3D3 /* RatingKitTests-Info.plist */,
+				ED8711D013CEDE060083C3D3 /* InfoPlist.strings */,
+				ED8711D313CEDE060083C3D3 /* RatingKitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8711A213CEDE050083C3D3 /* RatingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8711DA13CEDE060083C3D3 /* Build configuration list for PBXNativeTarget "RatingKit" */;
+			buildPhases = (
+				ED87119F13CEDE050083C3D3 /* Sources */,
+				ED8711A013CEDE050083C3D3 /* Frameworks */,
+				ED8711A113CEDE050083C3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatingKit;
+			productName = RatingKit;
+			productReference = ED8711A313CEDE060083C3D3 /* RatingKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED8711C613CEDE060083C3D3 /* RatingKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8711DD13CEDE060083C3D3 /* Build configuration list for PBXNativeTarget "RatingKitTests" */;
+			buildPhases = (
+				ED8711C213CEDE060083C3D3 /* Sources */,
+				ED8711C313CEDE060083C3D3 /* Frameworks */,
+				ED8711C413CEDE060083C3D3 /* Resources */,
+				ED8711C513CEDE060083C3D3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED8711CC13CEDE060083C3D3 /* PBXTargetDependency */,
+			);
+			name = RatingKitTests;
+			productName = RatingKitTests;
+			productReference = ED8711C713CEDE060083C3D3 /* RatingKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED87119A13CEDE050083C3D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "AGBO Business Architecture, SL";
+			};
+			buildConfigurationList = ED87119D13CEDE050083C3D3 /* Build configuration list for PBXProject "RatingKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED87119813CEDE050083C3D3;
+			productRefGroup = ED8711A413CEDE060083C3D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8711A213CEDE050083C3D3 /* RatingKit */,
+				ED8711C613CEDE060083C3D3 /* RatingKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8711A113CEDE050083C3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8711B213CEDE060083C3D3 /* InfoPlist.strings in Resources */,
+				ED8711BB13CEDE060083C3D3 /* MainWindow.xib in Resources */,
+				ED8711C113CEDE060083C3D3 /* RatingKitViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8711C413CEDE060083C3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8711D213CEDE060083C3D3 /* InfoPlist.strings in Resources */,
+				ED8711D513CEDE060083C3D3 /* RatingKitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED8711C513CEDE060083C3D3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED87119F13CEDE050083C3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8711B513CEDE060083C3D3 /* main.m in Sources */,
+				ED8711B813CEDE060083C3D3 /* RatingKitAppDelegate.m in Sources */,
+				ED8711BE13CEDE060083C3D3 /* RatingKitViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED8711C213CEDE060083C3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8711D713CEDE060083C3D3 /* RatingKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED8711CC13CEDE060083C3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED8711A213CEDE050083C3D3 /* RatingKit */;
+			targetProxy = ED8711CB13CEDE060083C3D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED8711B013CEDE060083C3D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8711B113CEDE060083C3D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED8711B913CEDE060083C3D3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8711BA13CEDE060083C3D3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ED8711BF13CEDE060083C3D3 /* RatingKitViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8711C013CEDE060083C3D3 /* en */,
+			);
+			name = RatingKitViewController.xib;
+			sourceTree = "<group>";
+		};
+		ED8711D013CEDE060083C3D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8711D113CEDE060083C3D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8711D813CEDE060083C3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED8711D913CEDE060083C3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ED8711DB13CEDE060083C3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingKit/RatingKit-Prefix.pch";
+				INFOPLIST_FILE = "RatingKit/RatingKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED8711DC13CEDE060083C3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingKit/RatingKit-Prefix.pch";
+				INFOPLIST_FILE = "RatingKit/RatingKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED8711DE13CEDE060083C3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RatingKit.app/RatingKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingKitTests/RatingKitTests-Prefix.pch";
+				INFOPLIST_FILE = "RatingKitTests/RatingKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ED8711DF13CEDE060083C3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RatingKit.app/RatingKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatingKitTests/RatingKitTests-Prefix.pch";
+				INFOPLIST_FILE = "RatingKitTests/RatingKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED87119D13CEDE050083C3D3 /* Build configuration list for PBXProject "RatingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8711D813CEDE060083C3D3 /* Debug */,
+				ED8711D913CEDE060083C3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8711DA13CEDE060083C3D3 /* Build configuration list for PBXNativeTarget "RatingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8711DB13CEDE060083C3D3 /* Debug */,
+				ED8711DC13CEDE060083C3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED8711DD13CEDE060083C3D3 /* Build configuration list for PBXNativeTarget "RatingKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8711DE13CEDE060083C3D3 /* Debug */,
+				ED8711DF13CEDE060083C3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED87119A13CEDE050083C3D3 /* Project object */;
+}
