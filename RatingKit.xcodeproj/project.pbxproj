@@ -22,6 +22,8 @@
 		ED8711D213CEDE060083C3D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED8711D013CEDE060083C3D3 /* InfoPlist.strings */; };
 		ED8711D513CEDE060083C3D3 /* RatingKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ED8711D413CEDE060083C3D3 /* RatingKitTests.h */; };
 		ED8711D713CEDE060083C3D3 /* RatingKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8711D613CEDE060083C3D3 /* RatingKitTests.m */; };
+		ED8711E213CEE2F10083C3D3 /* FRRWeightedRating.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8711E113CEE2F10083C3D3 /* FRRWeightedRating.m */; };
+		ED8711E313CEE2F10083C3D3 /* FRRWeightedRating.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8711E113CEE2F10083C3D3 /* FRRWeightedRating.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		ED8711D313CEDE060083C3D3 /* RatingKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RatingKitTests-Prefix.pch"; sourceTree = "<group>"; };
 		ED8711D413CEDE060083C3D3 /* RatingKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingKitTests.h; sourceTree = "<group>"; };
 		ED8711D613CEDE060083C3D3 /* RatingKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingKitTests.m; sourceTree = "<group>"; };
+		ED8711E013CEE2F10083C3D3 /* FRRWeightedRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRRWeightedRating.h; path = Classes/FRRWeightedRating.h; sourceTree = "<group>"; };
+		ED8711E113CEE2F10083C3D3 /* FRRWeightedRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRRWeightedRating.m; path = Classes/FRRWeightedRating.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 				ED8711BD13CEDE060083C3D3 /* RatingKitViewController.m */,
 				ED8711BF13CEDE060083C3D3 /* RatingKitViewController.xib */,
 				ED8711AE13CEDE060083C3D3 /* Supporting Files */,
+				ED8711E013CEE2F10083C3D3 /* FRRWeightedRating.h */,
+				ED8711E113CEE2F10083C3D3 /* FRRWeightedRating.m */,
 			);
 			path = RatingKit;
 			sourceTree = "<group>";
@@ -266,6 +272,7 @@
 				ED8711B513CEDE060083C3D3 /* main.m in Sources */,
 				ED8711B813CEDE060083C3D3 /* RatingKitAppDelegate.m in Sources */,
 				ED8711BE13CEDE060083C3D3 /* RatingKitViewController.m in Sources */,
+				ED8711E213CEE2F10083C3D3 /* FRRWeightedRating.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8711D713CEDE060083C3D3 /* RatingKitTests.m in Sources */,
+				ED8711E313CEE2F10083C3D3 /* FRRWeightedRating.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 #import "RatingKitAppDelegate.h"
 
 #import "RatingKitViewController.h"
+#import "FRRWeightedRating.h"
 
 @implementation RatingKitAppDelegate
 
@@ -20,7 +21,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-     
+    
+    FRRWeightedRating *item = [[[FRRWeightedRating alloc] init] autorelease];
+    [item rateAs:2];
+    [item rateAs:2];
+    NSString *res = [NSString stringWithFormat:@"%2.3f", item.rating];
+    NSLog(@"%@", res);
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

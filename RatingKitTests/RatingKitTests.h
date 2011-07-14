@@ -7,11 +7,13 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "FRRWeightedRating.h"
 
 
 @interface RatingKitTests : SenTestCase {
 @private
     
 }
+@property (nonatomic, retain) FRRWeightedRating *ratedItem;
 
 @end
